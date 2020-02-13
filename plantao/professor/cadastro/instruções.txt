@@ -1,0 +1,8 @@
+Cadastro de plantão dos Professores
+	O professor digita sua matricula.
+	O professor escolhe os horarios que ele gostaria de dar plantao.
+	No maximo 3 horários distintos de plantão podem ser oferecidos por cada professor
+		Normalmente os professores dão 2 horários distintos, a opção de dar 3 horarios distintos é só para dar uma folga no sistema
+	Horarios distintos signficam horarios que possuem pelo menos 1h de diferença entre eles
+		ie. Segunda 13~15 e Segunda 16~18 são 2 horarios diferentes, porém Segunda 13~14 14~15 15~16 é apenas um horario (seg 13~16)
+	Após o envio, é mostrada uma tela de confirmação e GG.

@@ -1,0 +1,12 @@
+Sistema de cadastro de plantão do Aluno
+	O aluno digita sua matricula e escolhe um professor. 
+	O codigo cadastro.php compara o EMA do aluno com o EMA do professor escolhido, 
+		caso não seja compativel, retorna 'erro'. 
+		Caso seja compativel, mostra as opções de horários cadastrados previamente pelos professores.
+	O aluno então escolhe o horario.
+	Caso a matricula do aluno já se encontre na tabela alunosplantao,
+		o codigo atualiza o cadastro do aluno com o novo horario,
+	Caso contrario,
+		insere um novo valor na tabela.
+	Um email de confirmação é então enviado para o aluno
+		(essa parte está apontada no codigo, e está em fase de testes, o remetente do email é estranho, mas funciona)

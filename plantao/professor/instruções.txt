@@ -1,0 +1,11 @@
+Analise de plantões do professor
+	O professor digita sua matricula ou o Monitor digita sua matricula 
+		os monitores são cadastrados na tabela professores no devido campo
+		Caso o professore tenha mais de um monitor, suas matriculas devem ser escritas uma seguida da outra 09207211611079 (isso é 0920721 e 1611079)
+	Será mostrado uma tabela com o numero de alunos inscritos em cada horario de plantao oferecido para o professor
+		Essa é uma forma minimalista do professor saber a quantidade de alunos para planejar seus plantoes
+	Caso o professor queria, é possivel gerar um relatorio com todos os alunos inscritos na sua monitoria
+		Esse relatorio contem matricula nome email e telefone
+		email e telefone devem ser cadastrados na tabela telefones com a devida matricula (o select eh feito por matricula)
+		A matricula (obviamente) deve ser a mesma presente na tabela alunos.
+	

@@ -1,0 +1,4 @@
+Analise de plantoes da Secretaria
+	A secretaria escolhe um professor, aperta o botao
+	É gerado um relatorio com todos os alunos email e telefone dos alunos inscritos no plantao daquele professor.
+		É a mesma tela do professor, mas sem precisar da matricula
